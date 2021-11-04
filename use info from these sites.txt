@@ -1,0 +1,15 @@
+wordpress custom theme development course learn form youtube channel
+==>> wp academy
+
+for wordpress theme development very important site
+==>> https://developer.wordpress.org
+==>> https://developer.wordpress.org/reference/classes/wp_query/
+
+custom post type generater 
+==>> https://www.wp-hasty.com/
+---------------------
+also use this site
+https://wp-skills.com/generators
+
+owl carousel download and use slider  
+==>> https://owlcarousel2.github.io/OwlCarousel2/

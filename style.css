@@ -1,0 +1,256 @@
+/*
+Theme Name: My First Theme
+Author: Ghulam Haider
+Description: this is my fist theme of wordpress.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+License: Haider Aproved
+Text Domain: myfirsttheme
+This theme, like WordPress, is licensed under the Haider.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+    background: #FFFFFF;
+}
+ /* header */ 
+ .site-header {
+    height: 110px;
+    background: #f0f0f0;
+    
+  }
+  
+  /* Main Menu */
+  .site-navigation {
+      width: 100%;
+      display: block;
+      clear: both;
+      margin-top: 15px;
+      text-align: center;
+      background:#FF0000;
+      height: auto;
+  }
+  .site-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.site-navigation li {
+  
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.site-navigation li:last-child {
+  border-right: none;
+}
+
+.site-navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.site-navigation li a:hover:not(.active) {
+  background-color: #111;
+}
+
+  /* home content */
+  .home-main {
+    margin-top: 15px;
+    width: 98%;
+    margin: auto;
+  }
+  .home-posts {
+      background: #f0f0f0;
+      width: 62.6%;
+      margin: auto;
+      margin-top: 5px;
+      margin-right: -108px;
+      padding: 30px 30px !important;
+  }
+  
+   /* side bar and widgets */
+   .home-sidebar {
+       background: #ddd;
+       min-height: 508px;  
+       height: auto;
+       width: 20%;
+       margin: auto;
+       margin-top: 5px;
+       padding: 10px 10px !important
+   }
+
+    /* footer */
+    .site-footer {
+        margin-top: 6px !important;
+        height: 125px;
+        width: 83%;
+        background: #333333 !important;
+        margin: 0 auto;
+
+    }
+    .footer-widgets{
+      height: auto;
+    }
+    .footer-widgets-2{
+        width: 30%;
+        margin-top: -136px;
+        margin-left: 400px;
+    }
+
+    .footer-widgets-3{
+        margin-top: -136px;
+        margin-left: 800px;
+        margin-right: 25px;
+        text-align: justify;
+        color:white;
+    }
+    .site-branding {
+      margin: 0 auto;
+  
+      }
+    .text-show{
+      width: 83%;
+      margin: 0 auto;
+      margin-left: 110px;
+      margin-top: 10px;
+
+  }
+    .posts-cs{
+        margin: 0 auto;
+        padding: 10px 10px;
+        
+    }
+    .pagination{
+        padding: 10px;
+        text-align: center;
+
+    }
+    .pagination a, .page-numbers.current{
+      display: inline-block;
+      padding: 10px 15px;
+      background: rgb(58, 58, 58);
+      border-radius: 5px;
+      border: 1px;
+      color: white;
+      margin: 0 5px;
+    }
+    .page-numbers.current{
+      background: black;
+    }
+    .header_image{
+      
+      width: 84.8%;
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 1px;
+      
+    }
+    .post-img{
+      text-align: center;
+    }
+    .header_image2{
+      
+      width: 83%;
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 1px;
+      
+    }
+    .heading {
+      width: 100%;
+      background-color: #333333;
+      color:#f2f3f3;
+    }
+    .category-1{
+      margin-top: 20px;
+      margin-left: 5px;
+      width: 49.8%;
+
+    }
+    .category-2{
+      width: 49.8%;
+      margin-left: 567px;
+      margin-top: -821px;
+  
+    }
+    .img-fluid2{
+      padding: 5px;
+      width: 170px;
+    }
+    .cont{
+      width: 50%;
+      margin-top: -150px;
+      margin-left: 180px;
+    }
+    .ul, li, a{
+      list-style-type: none;
+      color: red;
+      text-decoration: none;
+
+    }
+    /* .custom_post{
+      width: 200px;
+    } */
+    .custom_post::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .bacground-post{
+      width: 100%;
+      background: rgb(226, 225, 225);
+      margin: 5px;
+      padding: 20px;
+      margin-top: -5px;
+      
+      /* height: 150px; */
+    }
+    .bacground-custom-post{
+      width: 100%;
+      background: rgb(226, 225, 225);
+      /* border-top: 2px solid blue; */
+      /* border-bottom: 2px solid blue; */
+      /* border: 1px solid blue; */
+      /* color: ; */
+      margin: 5px;
+      padding: 10px;
+      /* height: 150px; */
+    }
+    .img-fluid-custom3, .cont-custom-post{
+      float: left;
+      width: 16.5%;
+      padding: 5px;
+
+    }
+    .cont-custom-post{
+      font-size: 13px;
+      /* width: 200px; */
+    }
+    /* .home-carousel{
+      ;
+      
+    } */
+    /* .img-fluid-custom4{
+      width: 20%;
+      height: 20%;
+    } */
+    .owl-nav{
+      display: none !important;
+    }
+    .owl-nav{
+      display: none !important;
+    }
+    .owl-carousel .owl-item img {
+      width: 78% !important;
+      height: auto !important;
+      margin: 50px; 
+      
+    }
+
+    
+
+ 
