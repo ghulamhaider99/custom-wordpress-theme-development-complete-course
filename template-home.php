@@ -65,7 +65,8 @@ get_header();
 <?php 
 $args = array(
     'post_type'  =>  'service',
-    'posts_per_page' => 3
+    'posts_per_page' => 3,
+    'order' => 'ASC'
 );
 $tech_posts = new WP_Query($args);
 
